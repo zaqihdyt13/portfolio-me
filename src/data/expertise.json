@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+    "desc": "Markup Language"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+    "desc": "Style Sheets"
+  },
+  {
+    "id": 3,
+    "name": "React",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    "desc": "JS Library"
+  },
+  {
+    "id": 4,
+    "name": "Node.js",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+    "desc": "JS Runtime"
+  },
+  {
+    "id": 5,
+    "name": "Express.js",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    "desc": "Web Framework"
+  },
+  {
+    "id": 6,
+    "name": "Bootstrap",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+    "desc": "CSS Framework"
+  },
+  {
+    "id": 7,
+    "name": "Tailwind",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    "desc": "CSS Framework"
+  },
+  {
+    "id":8,
+    "name": "MySQL",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+    "desc": "Database"
+  },
+  {
+    "id": 9,
+    "name": "Github",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+    "desc": "Version Control"
+  },
+  {
+    "id": 10,
+    "name": "Vercel",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+    "desc": "Deploy Platform"
+  },
+  {
+    "id": 11,
+    "name": "Netlify",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg",
+    "desc": "Deploy Platform"
+  },
+  {
+    "id": 12,
+    "name": "Railway",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/railway/railway-original.svg",
+    "desc": "Cloud Hosting"
+  },
+  {
+    "id": 13,
+    "name": "Visual Studio Code",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+    "desc": "Code Editor"
+  },
+  {
+    "id": 14,
+    "name": "Figma",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+    "desc": "Design Tool"
+  },
+  {
+    "id": 15,
+    "name": "Canva",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
+    "desc": "Design Tool"
+  },
+  {
+    "id": 16,
+    "name": "Ms.Word",
+    "img": "/images/expertise/word.png",
+    "desc": "Word Editor"
+  },
+  {
+    "id": 17,
+    "name": "Ms.Excel",
+    "img": "/images/expertise/excel.png",
+    "desc": "Spreadsheet"
+  },
+  {
+    "id": 18,
+    "name": "UML",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
+    "desc": "Modeling Language"
+  },
+  {
+    "id": 19,
+    "name": "Postman",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+    "desc": "API Testing"
+  }
+]
