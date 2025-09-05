@@ -3,114 +3,133 @@
     "id": 1,
     "name": "HTML",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-    "desc": "Markup Language"
+    "desc": "Markup Language",
+    "dad": "100"
   },
   {
     "id": 2,
     "name": "CSS",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-    "desc": "Style Sheets"
+    "desc": "Style Sheets",
+    "dad": "200"
   },
   {
     "id": 3,
     "name": "React",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-    "desc": "JS Library"
+    "desc": "JS Library",
+    "dad": "300"
   },
   {
     "id": 4,
     "name": "Node.js",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-    "desc": "JS Runtime"
+    "desc": "JS Runtime",
+    "dad": "400"
   },
   {
     "id": 5,
     "name": "Express.js",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
-    "desc": "Web Framework"
+    "desc": "Web Framework",
+    "dad": "500"
   },
   {
     "id": 6,
     "name": "Bootstrap",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-    "desc": "CSS Framework"
+    "desc": "CSS Framework",
+    "dad": "600"
   },
   {
     "id": 7,
     "name": "Tailwind",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-    "desc": "CSS Framework"
+    "desc": "CSS Framework",
+    "dad": "700"
   },
   {
     "id":8,
     "name": "MySQL",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
-    "desc": "Database"
+    "desc": "Database",
+    "dad": "800"
   },
   {
     "id": 9,
     "name": "Github",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
-    "desc": "Version Control"
+    "desc": "Version Control",
+    "dad": "900"
   },
   {
     "id": 10,
     "name": "Vercel",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
-    "desc": "Deploy Platform"
+    "desc": "Deploy Platform",
+    "dad": "1000"
   },
   {
     "id": 11,
     "name": "Netlify",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg",
-    "desc": "Deploy Platform"
+    "desc": "Deploy Platform",
+    "dad": "1100"
   },
   {
     "id": 12,
     "name": "Railway",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/railway/railway-original.svg",
-    "desc": "Cloud Hosting"
+    "desc": "Cloud Hosting",
+    "dad": "1200"
   },
   {
     "id": 13,
     "name": "Visual Studio Code",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
-    "desc": "Code Editor"
+    "desc": "Code Editor",
+    "dad": "1300"
   },
   {
     "id": 14,
     "name": "Figma",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
-    "desc": "Design Tool"
+    "desc": "Design Tool",
+    "dad": "1400"
   },
   {
     "id": 15,
     "name": "Canva",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
-    "desc": "Design Tool"
+    "desc": "Design Tool",
+    "dad": "1500"
   },
   {
     "id": 16,
     "name": "Ms.Word",
     "img": "/images/expertise/word.png",
-    "desc": "Word Editor"
+    "desc": "Word Editor",
+    "dad": "1600"
   },
   {
     "id": 17,
     "name": "Ms.Excel",
     "img": "/images/expertise/excel.png",
-    "desc": "Spreadsheet"
+    "desc": "Spreadsheet",
+    "dad": "1700"
   },
   {
     "id": 18,
     "name": "UML",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
-    "desc": "Modeling Language"
+    "desc": "Modeling Language",
+    "dad": "1800"
   },
   {
     "id": 19,
     "name": "Postman",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
-    "desc": "API Testing"
+    "desc": "API Testing",
+    "dad": "1900"
   }
 ]

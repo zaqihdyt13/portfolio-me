@@ -7,7 +7,7 @@ import { Contact } from "./Contact";
 
 export const Footer = ({ contactOpen, setContactOpen }) => {
   return (
-    <div className="w-full pt-8 pb-4 px-4 border-t-4 border-gray-700">
+    <div className="w-full pt-8 pb-4 px-4 bg-gray-800">
       <div className="flex md:flex-row flex-col md:justify-around items-center lg:gap-90 gap-8">
         <img
           src="/images/logo.png"

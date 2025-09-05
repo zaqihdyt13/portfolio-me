@@ -4,41 +4,47 @@
     "name": "To Do List",
     "img": "/images/projects/project1.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"]
+    "tools": ["React", "Tailwind"],
+    "dad": "100"
   },
   {
     "id": 2,
     "name": "To Do List",
     "img": "/images/projects/project1.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"]
+    "tools": ["React", "Tailwind"],
+    "dad": "200"
   },
   {
     "id": 3,
     "name": "To Do List",
     "img": "/images/projects/project1.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"]
+    "tools": ["React", "Tailwind"],
+    "dad": "300"
   },
   {
     "id": 4,
     "name": "To Do List",
     "img": "/images/projects/project1.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"]
+    "tools": ["React", "Tailwind"],
+    "dad": "400"
   },
   {
     "id": 5,
     "name": "To Do List",
     "img": "/images/projects/project1.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"]
+    "tools": ["React", "Tailwind"],
+    "dad": "500"
   },
   {
     "id": 6,
     "name": "To Do List",
     "img": "/images/projects/project1.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"]
+    "tools": ["React", "Tailwind"],
+    "dad": "600"
   }
 ]

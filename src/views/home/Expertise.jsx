@@ -16,6 +16,7 @@ export const Expertise = () => {
             <div
               key={exp.id}
               className="flex md:flex-nowrap flex-wrap justify-start items-center bg-transparent border border-gray-200 rounded-md p-2 gap-2"
+            data-aos="fade-left" data-aos-duration="1000" data-aos-delay={exp.dad}
             >
               <img src={exp.img} alt={exp} className="h-14" />
               <div>

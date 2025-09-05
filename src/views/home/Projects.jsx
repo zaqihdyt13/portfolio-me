@@ -6,14 +6,14 @@ export const Projects = () => {
     <>
       <div className="mt-40">
         <div>
-          <h1 className="sm:text-4xl text-3xl text-gray-200 font-bold text-center">
+          <h1 className="sm:text-4xl text-3xl text-gray-200 font-bold text-center" data-aos="fade-up" data-aos-duration="1000">
             Featured Projects
           </h1>
-          <p className="text-gray-500 text-center mt-2 mb-12">
+          <p className="text-gray-500 text-center mt-2 mb-12" data-aos="fade-up" data-aos-duration="1000">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <div className="lg:px-20 md:px-16 sm:px-10 px-4">
-            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20">
+            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
                   E-Commerce Clothing Store
@@ -54,13 +54,14 @@ export const Projects = () => {
                   src="/images/project1.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
+                  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"
                 />
                 <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
                 <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
 
-            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20">
+            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
                   Movie List Web App
@@ -98,13 +99,14 @@ export const Projects = () => {
                   src="/images/project2.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
+                  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"
                 />
                 <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
                 <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
 
-            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20">
+            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
                   Spotify Clone
@@ -131,6 +133,7 @@ export const Projects = () => {
                   src="/images/project3.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
+                  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500"
                 />
                 <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
                 <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
@@ -142,10 +145,10 @@ export const Projects = () => {
 
       <div className="mt-40 mb-26">
         <div className="">
-          <h1 className="text-gray-200 sm:text-4xl text-3xl font-bold text-center">
+          <h1 className="text-gray-200 sm:text-4xl text-3xl font-bold text-center" data-aos="fade-up" data-aos-duration="1000">
             Other Projects
           </h1>
-          <p className="text-gray-500 text-center mt-2 mb-12">
+          <p className="text-gray-500 text-center mt-2 mb-12" data-aos="fade-up" data-aos-duration="1000">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 lg:px-20 md:px-16 sm:px-10 px-4">
@@ -153,6 +156,7 @@ export const Projects = () => {
               <div
                 className="bg-gray-800 p-4 rounded-lg shadow-2xl shadow-rose-700/20"
                 key={project.id}
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay={project.dad}
               >
                 <img src={project.img} alt="" />
                 <h2 className="text-gray-200 text-xl font-bold mt-4">
