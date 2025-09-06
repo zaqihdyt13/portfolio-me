@@ -4,19 +4,33 @@ import projects from "../../data/projects.json";
 export const Projects = () => {
   return (
     <>
-      <div className="mt-40">
+      <div className="mt-40" id="projects">
         <div>
-          <h1 className="sm:text-4xl text-3xl text-gray-200 font-bold text-center" data-aos="fade-up" data-aos-duration="1000">
+          <h1
+            className="sm:text-4xl text-3xl text-gray-200 font-bold text-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             Featured Projects
           </h1>
-          <p className="text-gray-500 text-center mt-2 mb-12" data-aos="fade-up" data-aos-duration="1000">
-            Lorem ipsum dolor sit amet consectetur.
+          <p
+            className="text-gray-500 text-center mt-2 mb-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            A showcase of my best work, demonstrating practical application of
+            modern web development technologies and innovative solutions.
           </p>
           <div className="lg:px-20 md:px-16 sm:px-10 px-4">
-            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div
+              className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  E-Commerce Clothing Store
+                  Ghaza Store Clothing Web App
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A progressive web app (PWA) e-commerce platform delivering a
@@ -54,17 +68,24 @@ export const Projects = () => {
                   src="/images/project1.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
-                  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
                 />
                 <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
                 <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
 
-            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <div
+              className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Movie List Web App
+                  Moviemania Web App
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A responsive movie discovery web application powered by TMDB
@@ -99,14 +120,21 @@ export const Projects = () => {
                   src="/images/project2.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
-                  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
                 />
                 <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
                 <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
 
-            <div className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div
+              className="bg-gray-800 w-full mb-10 rounded-2xl flex lg:flex-nowrap flex-wrap-reverse justify-between items-start shadow-2xl shadow-rose-700/20"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
                   Spotify Clone
@@ -133,7 +161,9 @@ export const Projects = () => {
                   src="/images/project3.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
-                  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
                 />
                 <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
                 <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
@@ -145,20 +175,37 @@ export const Projects = () => {
 
       <div className="mt-40 mb-26">
         <div className="">
-          <h1 className="text-gray-200 sm:text-4xl text-3xl font-bold text-center" data-aos="fade-up" data-aos-duration="1000">
-            Other Projects
+          <h1
+            className="text-gray-200 sm:text-4xl text-3xl font-bold text-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Additional Projects
           </h1>
-          <p className="text-gray-500 text-center mt-2 mb-12" data-aos="fade-up" data-aos-duration="1000">
-            Lorem ipsum dolor sit amet consectetur.
+          <p
+            className="text-gray-500 text-center mt-2 mb-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Additional projects and experiments that showcase my versatility and
+            continuous learning in web development.
           </p>
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 lg:px-20 md:px-16 sm:px-10 px-4">
             {projects.map((project) => (
               <div
                 className="bg-gray-800 p-4 rounded-lg shadow-2xl shadow-rose-700/20"
                 key={project.id}
-                data-aos="fade-up" data-aos-duration="1000" data-aos-delay={project.dad}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay={project.dad}
               >
-                <img src={project.img} alt="" />
+                <div className="h-40 p-0">
+                  <img
+                    src={project.img}
+                    alt="project"
+                    className="bg-cover h-full"
+                  />
+                </div>
                 <h2 className="text-gray-200 text-xl font-bold mt-4">
                   {project.name}
                 </h2>
@@ -180,7 +227,7 @@ export const Projects = () => {
                     href=""
                     className="bg-rose-500 text-gray-200 font-medium py-1 px-2 rounded-md block w-full text-center hover:bg-rose-400 hover:scale-[0.98] transition-all"
                   >
-                    Preview
+                    Source Code
                   </a>
                 </div>
               </div>

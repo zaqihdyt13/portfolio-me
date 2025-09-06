@@ -1,50 +1,34 @@
 [
   {
     "id": 1,
-    "name": "To Do List",
+    "name": "CRUD Book List",
     "img": "/images/projects/project1.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"],
+    "desc": "Digital library management system with full CRUD operations. Search, filter, and organize your book collection efficiently.",
+    "tools": ["React", "Express", "MongoDB", "Tailwind"],
     "dad": "100"
   },
   {
     "id": 2,
     "name": "To Do List",
-    "img": "/images/projects/project1.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"],
+    "img": "/images/projects/project2.png",
+    "desc": "Simple task management app to track daily activities. Add, complete, and prioritize your tasks seamlessly.",
+    "tools": ["Vue", "HTML", "CSS"],
     "dad": "200"
   },
   {
     "id": 3,
-    "name": "To Do List",
-    "img": "/images/projects/project1.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "name": "TopDJ List",
+    "img": "/images/projects/project3.png",
+    "desc": "Community platform to discover and rank top DJs. Rate performances and explore artist profiles by genre.",
     "tools": ["React", "Tailwind"],
     "dad": "300"
   },
   {
     "id": 4,
-    "name": "To Do List",
-    "img": "/images/projects/project1.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"],
+    "name": "Fake Chatbot",
+    "img": "/images/projects/project4.png",
+    "desc": "Interactive chatbot simulation with natural conversation flow.",
+    "tools": ["Javascript", "HTML", "CSS"],
     "dad": "400"
-  },
-  {
-    "id": 5,
-    "name": "To Do List",
-    "img": "/images/projects/project1.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"],
-    "dad": "500"
-  },
-  {
-    "id": 6,
-    "name": "To Do List",
-    "img": "/images/projects/project1.png",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "tools": ["React", "Tailwind"],
-    "dad": "600"
   }
 ]

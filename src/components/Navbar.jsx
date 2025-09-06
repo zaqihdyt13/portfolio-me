@@ -21,14 +21,14 @@ export const Navbar = () => {
   return (
     <>
       <nav
-        className={`px-2 sm:px-6 lg:px-8 sticky top-0 start-0 z-80 ${
+        className={`w-screen px-2 sm:px-6 lg:px-8 fixed top-0 start-0 z-80 ${
           isScrolled
-            ? "bg-gray-950 m-0 w-full opacity-90 shadow-xl/20 shadow-rose-500"
-            : "backdrop-blur-2xl rounded-lg sm:lg:md:rounded-2xl m-2"
-        } lg:block transition-all`}
+            ? "bg-gray-950 m-0 opacity-90 shadow-xl/20 shadow-rose-500"
+            : "backdrop-blur-2xl rounded-lg sm:lg:md:rounded-2xl py-2"
+        } lg:block transition-all ease-in-out`}
       >
-        <div className="relative flex h-16 items-center justify-between">
-          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <div className="flex h-16 items-center justify-between">
+          <div className="absolute inset-y-0 right-4 flex items-center sm:hidden">
             <button
               type="button"
               className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-red-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -67,7 +67,7 @@ export const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex sm:flex-1 items-center justify-center sm:items-stretch sm:justify-between">
             <div className="flex flex-shrink-0 items-center">
               <a href="/">
                 <img className="h-12" src="/images/logo.png" alt="Logo" />
@@ -99,7 +99,7 @@ export const Navbar = () => {
                   Home
                 </a>
                 <a
-                  href="/portfolios"
+                  href="#projects"
                   className="text-gray-200 border-transparent flex px-5 items-center py-6 text-sm leading-5 hover:bg-gray-900 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out"
                 >
                   <span className="mr-2">
@@ -122,7 +122,7 @@ export const Navbar = () => {
                   Projects
                 </a>
                 <a
-                  href="/blogs"
+                  href="#hero"
                   className="text-gray-200 border-transparent flex px-5 items-center py-6 text-sm leading-5 hover:bg-gray-900 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out"
                 >
                   <span className="mr-2">
@@ -149,7 +149,7 @@ export const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
               className="relative rounded-full bg-red-600 p-1 text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-white"
@@ -171,7 +171,7 @@ export const Navbar = () => {
                 ></path>
               </svg>
             </button>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>
