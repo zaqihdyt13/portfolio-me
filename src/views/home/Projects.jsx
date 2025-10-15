@@ -1,7 +1,9 @@
 import React from "react";
 import projects from "../../data/projects.json";
+import { useNavigate } from "react-router-dom";
 
 export const Projects = () => {
+  const navigate = useNavigate()
   return (
     <>
       <div className="mt-40" id="projects">
@@ -27,6 +29,7 @@ export const Projects = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="200"
+              onClick={() => navigate("https://www.ghazastore.shop")}
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
@@ -82,6 +85,7 @@ export const Projects = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
+              onClick={() => navigate("https://moviemania-chi.vercel.app")}
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
@@ -134,6 +138,7 @@ export const Projects = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="400"
+              onClick={() => navigate("https://spotify-clone-zeta-ten-74.vercel.app")}
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
