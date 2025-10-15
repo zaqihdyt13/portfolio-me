@@ -224,7 +224,7 @@ export const Projects = () => {
                 </div>
                 <div className="mt-4">
                   <a
-                    href=""
+                    href="https://github.com/zaqihdyt13?tab=repositories"
                     className="bg-rose-500 text-gray-200 font-medium py-1 px-2 rounded-md block w-full text-center hover:bg-rose-400 hover:scale-[0.98] transition-all"
                   >
                     Source Code
