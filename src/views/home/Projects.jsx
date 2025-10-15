@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../../data/projects.json";
 import { useNavigate } from "react-router-dom";
+import { FiExternalLink } from "react-icons/fi";
 
 export const Projects = () => {
   const navigate = useNavigate()
@@ -29,11 +30,10 @@ export const Projects = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="200"
-              onClick={() => navigate("https://www.ghazastore.shop")}
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Ghaza Store Clothing Web App
+                  Ghaza Store Clothing Web App <a href="https://www.ghazastore.shop"><FiExternalLink/></a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A progressive web app (PWA) e-commerce platform delivering a
@@ -85,11 +85,10 @@ export const Projects = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
-              onClick={() => navigate("https://moviemania-chi.vercel.app")}
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Moviemania Web App
+                  Moviemania Web App <a href="https://moviemania-chi.vercel.app"><FiExternalLink/></a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A responsive movie discovery web application powered by TMDB
@@ -142,7 +141,7 @@ export const Projects = () => {
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Spotify Clone
+                  Spotify Clone <a href="https://spotify-clone-zeta-ten-74.vercel.app"><FiExternalLink/></a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A Spotify Clone web app that utilizes the Spotify API to
