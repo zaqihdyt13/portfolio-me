@@ -132,7 +132,7 @@ export const Projects = () => {
                 <h1 className="text-gray-200 font-bold text-2xl">
                   ByteAcademy MOOC Web App{" "}
                   <a
-                    href="https://spotify-clone-zeta-ten-74.vercel.app"
+                    href="https://final-project-b2-fejs1.vercel.app"
                     className="text-blue-600"
                   >
                     <FiExternalLink />
