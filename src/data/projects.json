@@ -17,18 +17,10 @@
   },
   {
     "id": 3,
-    "name": "TopDJ List",
+    "name": "Spotify Clone",
     "img": "/images/projects/project3.png",
-    "desc": "Community platform to discover and rank top DJs. Rate performances and explore artist profiles by genre.",
-    "tools": ["React", "Tailwind"],
+    "desc": "A Spotify Clone web app that utilizes the Spotify API to search for tracks and play 30-second song previews, providing a simple and interactive music listening experience.",
+    "tools": ["React", "Tailwind", "Spotify API"],
     "dad": "300"
-  },
-  {
-    "id": 4,
-    "name": "Fake Chatbot",
-    "img": "/images/projects/project4.png",
-    "desc": "Interactive chatbot simulation with natural conversation flow.",
-    "tools": ["Javascript", "HTML", "CSS"],
-    "dad": "400"
   }
 ]

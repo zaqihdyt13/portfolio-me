@@ -31,7 +31,13 @@ export const Projects = () => {
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Ghaza Store Clothing Web App <a href="https://www.ghazastore.shop" className="text-blue-600"><FiExternalLink/></a>
+                  Ghaza Store Clothing Web App{" "}
+                  <a
+                    href="https://www.ghazastore.shop"
+                    className="text-blue-600"
+                  >
+                    <FiExternalLink />
+                  </a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A progressive web app (PWA) e-commerce platform delivering a
@@ -42,24 +48,14 @@ export const Projects = () => {
                 <div>
                   <ul className="text-gray-400 list-disc">
                     <h3 className="text-rose-500 font-bold">
-                      Frontend Features
+                      Tech Stack
                     </h3>
                     <li className="ms-4">React.js with Vite</li>
-                    <li className="ms-4">Responsive UI with Tailwind CSS</li>
-                    <li className="ms-4">Real-time Cart & Checkout</li>
-                    <li className="ms-4">
-                      Progressive Web App (PWA) Features (Offline Access &
-                      Installable)
-                    </li>
-                  </ul>
-                  <ul className="text-gray-400 list-disc">
-                    <h3 className="text-rose-500 font-bold">Backend Systems</h3>
-                    <li className="ms-4">Node.js + Express REST API</li>
-                    <li className="ms-4">MySQL Database</li>
-                    <li className="ms-4">
-                      Recommendation System (Popularity-Based & Rule-Based)
-                    </li>
-                    <li className="ms-4">JWT Authentication & Authorization</li>
+                    <li className="ms-4">Tailwind CSS</li>
+                    <li className="ms-4">Node.js</li>
+                    <li className="ms-4">Express.js</li>
+                    <li className="ms-4">MySQL</li>
+                    <li className="ms-4">JWT</li>
                   </ul>
                 </div>
               </div>
@@ -86,7 +82,13 @@ export const Projects = () => {
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Moviemania Web App <a href="https://moviemania-chi.vercel.app" className="text-blue-600"><FiExternalLink/></a>
+                  Moviemania Web App{" "}
+                  <a
+                    href="https://moviemania-chi.vercel.app"
+                    className="text-blue-600"
+                  >
+                    <FiExternalLink />
+                  </a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
                   A responsive movie discovery web application powered by TMDB
@@ -96,22 +98,12 @@ export const Projects = () => {
                 <div>
                   <ul className="text-gray-400 list-disc">
                     <h3 className="text-rose-500 font-bold">
-                      Frontend Features
+                      Tech Stack
                     </h3>
-                    <li className="ms-4">Built with React.js</li>
-                    <li className="ms-4">Responsive UI with Bootstrap</li>
-                    <li className="ms-4">Movie browsing using TMDB API</li>
-                    <li className="ms-4">Detailed pages for each movie</li>
-                    <li className="ms-4">
-                      Watch trailers directly from movie detail page
-                    </li>
-                    <li className="ms-4">
-                      Search & Category filter functionality
-                    </li>
-                  </ul>
-                  <ul className="text-gray-400 list-disc">
-                    <h3 className="text-rose-500 font-bold">Authentication</h3>
-                    <li className="ms-4">Google OAuth 2.0 Login</li>
+                    <li className="ms-4">React.js</li>
+                    <li className="ms-4">Bootstrap</li>
+                    <li className="ms-4">TMDB API</li>
+                    <li className="ms-4">Google OAuth</li>
                   </ul>
                 </div>
               </div>
@@ -138,28 +130,40 @@ export const Projects = () => {
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Spotify Clone <a href="https://spotify-clone-zeta-ten-74.vercel.app" className="text-blue-600"><FiExternalLink/></a>
+                  ByteAcademy MOOC Web App{" "}
+                  <a
+                    href="https://spotify-clone-zeta-ten-74.vercel.app"
+                    className="text-blue-600"
+                  >
+                    <FiExternalLink />
+                  </a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
-                  A Spotify Clone web app that utilizes the Spotify API to
-                  search for tracks and play 30-second song previews, providing
-                  a simple and interactive music listening experience.
+                  MOOC ByteAcademy is a web-based learning platform developed by
+                  my team and me to provide accessible and interactive online
+                  education for students and professionals. The platform offers
+                  various online courses covering topics in technology,
+                  programming, and personal development.
                 </h2>
                 <div>
                   <ul className="text-gray-400 list-disc">
                     <h3 className="text-rose-500 font-bold">
-                      Frontend Features
+                      Tech Stack
                     </h3>
                     <li className="ms-4">React.js with Vite</li>
-                    <li className="ms-4">Using Spotify API</li>
-                    <li className="ms-4">UI Styling with Tailwind CSS</li>
+                    <li className="ms-4">Tailwind CSS</li>
+                    <li className="ms-4">Spring Boot</li>
+                    <li className="ms-4">PostgreSQL</li>
+                    <li className="ms-4">JWT</li>
+                    <li className="ms-4">Cloudinary</li>
+                    <li className="ms-4">OAuth Google</li>
                   </ul>
                 </div>
               </div>
 
               <div className="relative xl:flex-1 lg:flex-auto w-full py-0 lg:px-0">
                 <img
-                  src="/images/project3.png"
+                  src="/images/project4.png"
                   alt=""
                   className="h-126 w-full object-cover lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"
                   data-aos="zoom-in"
