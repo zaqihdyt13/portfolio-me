@@ -47,9 +47,7 @@ export const Projects = () => {
                 </h2>
                 <div>
                   <ul className="text-gray-400 list-disc">
-                    <h3 className="text-rose-500 font-bold">
-                      Tech Stack
-                    </h3>
+                    <h3 className="text-rose-500 font-bold">Tech Stack</h3>
                     <li className="ms-4">React.js with Vite</li>
                     <li className="ms-4">Tailwind CSS</li>
                     <li className="ms-4">Node.js</li>
@@ -82,7 +80,7 @@ export const Projects = () => {
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Moviemania Web App{" "}
+                  Cleaning Service We App{" "}
                   <a
                     href="https://moviemania-chi.vercel.app"
                     className="text-blue-600"
@@ -91,19 +89,19 @@ export const Projects = () => {
                   </a>
                 </h1>
                 <h2 className="text-gray-400 my-4 pe-4">
-                  A responsive movie discovery web application powered by TMDB
-                  API, featuring Google OAuth login, movie browsing, detailed
-                  information, and personalized experience with a modern UI.
+                  A web-based cleaning service management system that helps
+                  organizations manage cleaning operations efficiently. Features
+                  include task scheduling, area inspections, staff assignments,
+                  attendance tracking, reporting, and real-time monitoring
+                  through an intuitive and responsive interface.
                 </h2>
                 <div>
                   <ul className="text-gray-400 list-disc">
-                    <h3 className="text-rose-500 font-bold">
-                      Tech Stack
-                    </h3>
-                    <li className="ms-4">React.js</li>
-                    <li className="ms-4">Bootstrap</li>
-                    <li className="ms-4">TMDB API</li>
-                    <li className="ms-4">Google OAuth</li>
+                    <h3 className="text-rose-500 font-bold">Tech Stack</h3>
+                    <li className="ms-4">Laravel</li>
+                    <li className="ms-4">Vue</li>
+                    <li className="ms-4">Inertia.js</li>
+                    <li className="ms-4">Vuetify</li>
                   </ul>
                 </div>
               </div>
@@ -147,9 +145,7 @@ export const Projects = () => {
                 </h2>
                 <div>
                   <ul className="text-gray-400 list-disc">
-                    <h3 className="text-rose-500 font-bold">
-                      Tech Stack
-                    </h3>
+                    <h3 className="text-rose-500 font-bold">Tech Stack</h3>
                     <li className="ms-4">React.js with Vite</li>
                     <li className="ms-4">Tailwind CSS</li>
                     <li className="ms-4">Spring Boot</li>
