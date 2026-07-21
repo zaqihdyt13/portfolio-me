@@ -33,7 +33,7 @@ export const Projects = () => {
                 <h1 className="text-gray-200 font-bold text-2xl">
                   Ghaza Store Clothing Web App{" "}
                   <a
-                    href="https://www.ghazastore.shop"
+                    href="https://github.com/zaqihdyt13/ghaza_store_frontend"
                     className="text-blue-600"
                   >
                     <FiExternalLink />
@@ -67,8 +67,8 @@ export const Projects = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 />
-                <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
-                <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
+                <div className="absolute inset-0 lg:bg-linear-to-r bg-linear-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
+                <div className="absolute inset-0 lg:bg-linear-to-l bg-linear-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
 
@@ -80,11 +80,8 @@ export const Projects = () => {
             >
               <div className="xl:flex-1 flex-auto py-10 ps-6">
                 <h1 className="text-gray-200 font-bold text-2xl">
-                  Cleaning Service We App{" "}
-                  <a
-                    href="https://moviemania-chi.vercel.app"
-                    className="text-blue-600"
-                  >
+                  Cleaning Service Web App{" "}
+                  <a href="/redirect" className="text-blue-600">
                     <FiExternalLink />
                   </a>
                 </h1>
@@ -115,8 +112,8 @@ export const Projects = () => {
                   data-aos-duration="1000"
                   data-aos-delay="400"
                 />
-                <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
-                <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
+                <div className="absolute inset-0 lg:bg-linear-to-r bg-linear-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
+                <div className="absolute inset-0 lg:bg-linear-to-l bg-linear-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
 
@@ -166,8 +163,8 @@ export const Projects = () => {
                   data-aos-duration="1000"
                   data-aos-delay="500"
                 />
-                <div className="absolute inset-0 lg:bg-gradient-to-r bg-gradient-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
-                <div className="absolute inset-0 lg:bg-gradient-to-l bg-gradient-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
+                <div className="absolute inset-0 lg:bg-linear-to-r bg-linear-to-t from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
+                <div className="absolute inset-0 lg:bg-linear-to-l bg-linear-to-b from-gray-800 via-transparent to-transparent lg:rounded-r-2xl lg:rounded-t-none rounded-t-2xl border-0"></div>
               </div>
             </div>
           </div>
@@ -225,7 +222,7 @@ export const Projects = () => {
                 </div>
                 <div className="mt-4">
                   <a
-                    href="https://github.com/zaqihdyt13?tab=repositories"
+                    href={project.link}
                     className="bg-rose-500 text-gray-200 font-medium py-1 px-2 rounded-md block w-full text-center hover:bg-rose-400 hover:scale-[0.98] transition-all"
                   >
                     Source Code

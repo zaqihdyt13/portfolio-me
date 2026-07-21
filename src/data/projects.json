@@ -21,7 +21,8 @@
     "img": "/images/projects/project3.png",
     "desc": "A Spotify Clone web app that utilizes the Spotify API to search for tracks and play 30-second song previews, providing a simple and interactive music listening experience.",
     "tools": ["React", "Tailwind", "Spotify API"],
-    "dad": "300"
+    "dad": "300",
+    "link": "https://github.com/zaqihdyt13/spotify-clone"
   },
   {
     "id": 4,
@@ -29,6 +30,7 @@
     "img": "/images/projects/project4.png",
     "desc": "A responsive movie discovery web application powered by TMDB API, featuring Google OAuth login, movie browsing, detailed information, and personalized experience with a modern UI.",
     "tools": ["React", "Bootstrap", "TMDB API"],
-    "dad": "300"
+    "dad": "300",
+    "link": "https://github.com/zaqihdyt13/moviemania"
   }
 ]
